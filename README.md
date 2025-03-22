@@ -27,7 +27,7 @@ pip install requests
 2. It starts by querying each version (`v1`, `v2`, `v3`) with single letters (`a-z`).
 3. Extracted names are stored and used to query further, following a depth limit.
 4. Requests are retried in case of rate limiting (HTTP 429) or failures.
-5. The extracted names are saved to `extracted_names_1.txt`.
+5. The extracted names are saved to `harvested_entries.txt`.
 
 ## **How to Run**
 Run the script using:
@@ -38,7 +38,7 @@ python script.py
 
 ## **Output**
 - Logs the extraction process.
-- Saves extracted names in `extracted_names_1.txt`.
+- Saves extracted names in `harvested_entries.txt`.
 
 ## **Customization**
 - Modify `MAX_RETRIES`, `DELAY`, and `max_depth` as needed.
