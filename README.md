@@ -1,6 +1,6 @@
 # Ivy_homes_assignment
 
-# **Name Extraction Script**
+
 
 ## **Overview**
 This script extracts names from an API endpoint using different API versions (`v1`, `v2`, `v3`). It performs recursive requests, handles rate limits, and stores unique names from each version.
