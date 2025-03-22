@@ -48,6 +48,8 @@ class NameHarvester:
                     logging.warning(f"Rate limited on {api_version}. Waiting {backoff_time:.2f}s")
                     sleep(backoff_time)
                     attempt += 1
+                    print("Number of searches made for v1:", harvester.api_query_metrics["v1"])
+                    print("Number of searches made for v2:", harvester.api_query_metrics["v2"])
                 else:
                     logging.error(f"HTTP error: {error}")
                     return None
