@@ -10,7 +10,7 @@ This script extracts names from an API endpoint using different API versions (`v
 - Handles rate limits with exponential backoff.
 - Recursively extracts names to a specified depth.
 - Logs the extraction process for easy debugging.
-- Saves the extracted names to a text file (`extracted_names_1.txt`).
+- Saves the extracted names to a text file (`harvested_entries.txt`).
 
 ## **Requirements**
 Ensure you have Python installed along with the required library:
